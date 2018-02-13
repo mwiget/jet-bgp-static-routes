@@ -93,7 +93,7 @@ routes successfully added
 root@89b73fd45577:~#
 ```
 
-If you run the app again within less than 120 seconds (or whatever the devices purge-timeout is set to), you'll will get  error ROUTE_EXISTS(17) back, which means the equest contained a route that is already present in the table:
+If you run the app again within less than 120 seconds (or whatever the devices purge-timeout is set to), you'll will get  error ROUTE_EXISTS(17) back, which means the request contained routes that are already present in the table:
 
 ```
 root@89b73fd45577:~# ./jroutes_bgp.py --t 192.168.1.33 --port 50051 --user lab --pass lab123
