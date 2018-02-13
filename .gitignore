@@ -1,0 +1,6 @@
+jet-idl-*.tar.gz
+*.swp
+proto
+.cache
+.vim*
+.bash*
