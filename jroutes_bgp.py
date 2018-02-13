@@ -107,4 +107,3 @@ if result.status > bgp_route_service_pb2.BgpRouteOperReply.SUCCESS:
     print("for BgpRouteOperReply.BgpRouteOperStatus description")
 else:
     print("routes successfully added")
-
